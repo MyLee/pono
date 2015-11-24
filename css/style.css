@@ -1,0 +1,126 @@
+
+
+/***********GENERAL***********************/  
+body{
+  padding: 0; 
+  margin: 0;
+}
+h1, h2, h3{
+  text-align: center;
+}
+
+ .imgCenter{
+   display: block;
+   margin: 0 auto;
+ }
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper{
+  max-width: 80%;
+  margin: auto;
+}
+
+/*--------------HOME-----------------*/
+#home{
+  margin: auto; 
+  background: #c77965;
+  padding-bottom: 2%;
+}
+
+
+
+
+
+
+/*------------VAD ERBUJDER VI------------*/
+#services{
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+/*------------VAD VI HAR GJORT-----------*/
+
+
+
+
+
+
+
+/*---------VAD ERBjuDER VI---------------*/
+
+.portfolio-item {
+  border: 4px solid #DC9447;
+  background: transparent url('../img/dammy.jpg') no-repeat center 1%;
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  transition: background .2s;
+  -webkit-transtion: background .2s;
+}
+
+.portfolio-item:hover {
+  background: #DC9447;
+}
+
+.portfolio-item p {
+  display: none;
+  color: white;
+}
+
+.portfolio-item:hover p {
+  display: block;
+}
+
+
+
+/*--------------KONTAKTA OSS-----------------*/
+
+
+
+
+
+
+
+/*-------------FOOTER-------------------------*/
+
+
+
+
+
+
+
+/*---------------NAV---------------------------*/
+.navbar-cusstom{
+  color: red;
+  background-color: #c77965;
+}
+
+
+
+
+
+
+/*------- Screen size ----------------*/
+@media all and (max-width: 1200px) {  
+  
+  }
+
+@media all and (max-width: 768px) {  
+
+}
+
+@media (min-width:481px) {
+
+
+} 
+
+
+
+
