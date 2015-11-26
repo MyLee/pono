@@ -28,7 +28,14 @@ a:hover {
   background: #c77965;
   padding-bottom: 2%;
 }
+#logo{
+  display: inline-block;
+}
 
+.title1{
+  font-size: 40px;
+  font-weight: 700;
+}
 
 
 
@@ -97,12 +104,16 @@ a:hover {
 
 
 /*---------------NAV---------------------------*/
-.navbar-cusstom{
-  color: red;
-  background-color: #c77965;
+.navbar-custom{
+  color:#FFF;
+}
+.navbar-custom a{
+  color: #fff;
 }
 
-
+.navbar-custom a:hover{
+  color: chocolate;
+}
 
 
 

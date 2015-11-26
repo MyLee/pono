@@ -3,6 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pono Mobile Web</title>
+	<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">		
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,41 +19,34 @@
 	<body>
 	<div class="container-fluid">
 		<section  id="home">
-			<div class="wrapper">	    	
-	        	<nav class="navbar navbar-default navbar-custom">	        		
-					<div class="container-fluid ">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header navbar-custom">
-							<button type="button" class="navbar-toggle collapsed " data-toggle="colapse" data-target="#nav-mobile" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span><img src="img/eye1.png" alt="menu"/> </span>
+			<div class="wrapper">
+				<nav class="navbar navbar-custom">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<img src="img/eye.png" id="logo" alt="logo"/>                        
 							</button>
-							<a href="#home" id="logo-container" class="navbar-brand"><img src="img/logo1.png" alt="logo"/>Pono Mobile Web</a>						
+							<img src="img/logo.png" id="logo" alt="logo"/><span class="title1">Pono</span> <br> Mobile Web
 						</div>
-					
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse navbar-right navbar-custom" id="nav-mobile">					
-							<ul class="nav navbar-nav">
-								<li ><a href="#home" title="Hemservices" >Hem</a></li>					
-								<li><a href="#services" title="Vad vi erbjuder" >Vad vi erbjuder </a></li>					
-								<li><a href="#portfolio" title="Vad vi gjort" >Vad vi gjort</a></li>					
-								<li><a href="#contact" title="Kontakta oss" >Kontakta oss</a></li>								
-							</ul>	
-							<form class="navbar-form navbar-left" role="search">
+						<div class="collapse navbar-collapse" id="myNavbar">					
+							<form class="navbar-form navbar-right" role="search">
 								<div class="form-group">
 								<input type="text" class="form-control" placeholder="Search">
-								</div>
-								
-							</form>	
-							<!--<ul class="nav navbar-nav navbar-right">
-								<li><a href="#home" title="Hem" class="">Hem</a></li>					
-								<li><a href="#services" title="Vad vi erbjuder" class="">Vad vi erbjuder </a></li>					
-								<li><a href="#portfolio" title="Vad vi gjort" class="">Vad vi gjort</a></li>					
-								<li><a href="#contact" title="Kontakta oss" class="">Kontakta oss</a></li>		
-							</ul>-->
-						</div>	<!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>			
+								</div>										
+							</form>		
+							<ul class="nav navbar-nav navbar-right">
+								<li ><a href="#home" title="Hem" >Hem</a></li>					
+								<li><a href="#services" title="Vad vi erbjuder" >Vad vi erbjuder </a></li>					
+								<li><a href="#portfolio" title="Vad vi gjort" >Vad vi gjort</a></li>					
+								<li><a href="#contact" title="Kontakta oss" >Kontakta oss</a></li>		
+							</ul>
+													
+						</div>
+						
+					</div>
+					
+				</nav>	    		        	
+					
 				<h1 > Varför väljer oss? </h1>
 				<div class="mainPic"> <img src="img/main.jpg" alt="mainpic" class="imgCenter" ></div>																
 					<p >Venison tri-tip jowl short ribs, jerky meatball prosciutto shank shoulder picanha rump. Andouille salami beef ribs brisket, shankle kielbasa turkey flank tenderloin t-bone filet mignon chicken. Ham hock bresaola leberkas, cupim filet mignon turkey brisket spare ribs. Meatloaf chuck leberkas chicken, cow sausage bresaola. 							
@@ -57,6 +54,7 @@
 					<p>Pig pork loin boudin, sirloin picanha tail short ribs beef shank ground round turkey pork belly jowl meatloaf. Biltong sausage landjaeger, short ribs filet mignon picanha swine capicola jerky. Salami ball tip pastrami pork ham bresaola, bacon capicola. 
 					</p>
 			</div> <!--end of class wrapper -->
+						
 		</section> <!--end of 'Home' section-->
 		
 
@@ -198,9 +196,6 @@
 	
 	        
 		
-	</div>  <!--end of "page-wrapper" div -->
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>-->
+	</div>  <!--end of "page-wrapper" div -->	
 </body>
 </html>
